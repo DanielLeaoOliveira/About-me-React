@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@300..700&display=swap');
+
+/* |=============| Parametros gerais |============| */
+
 :root {
     --bg: #131313;
     --fonte: #e9e9e9;
@@ -10,6 +13,9 @@ body {
     background-image: linear-gradient(30deg, var(--bg), #4f4f4f);
     color: var(--fonte);
 }
+
+
+/* |=============| Navbar |============| */
 
 .navbar {
     border: solid 1px var(--fonte);
@@ -25,6 +31,12 @@ body {
     transform: scale(0.9);
 }
 
+
+/* |=============| Conteúdo principal - landing (Home) |============| */
+
+
+/* Texto */
+
 .conteudo {
     border: 1px solid var(--fonte);
 }
@@ -33,6 +45,13 @@ body {
     font-family: 'Bungee', cursive;
 }
 
+.texto-descricao {
+    text-align: justify;
+}
+
+
+/* Imagens e Icones */
+
 .perfil {
     border: 1px solid var(--fonte);
     padding: 2%;
@@ -40,11 +59,11 @@ body {
 
 .icone-tech {
     width: 23%;
+    border-radius: 0 !important;
 }
 
-.texto-descricao {
-    text-align: justify;
-}
+
+/* |=============| Footer |============| */
 
 .copyright {
     color: var(--copyright);
