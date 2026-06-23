@@ -1,7 +1,7 @@
 export function Footer() {
     return (
         <>
-            <footer className="bg-dark mt-5 p-5" data-bs-theme="dark">
+            <footer className="rodape rounded-5 m-3 p-5">
                 <div className="container text-center">
                     <h4>Contato:</h4>
                     <a href="mailto:daniboyoliver2006@gmail.com"><p>Email: daniboyoliver2006@gmail.com</p></a>

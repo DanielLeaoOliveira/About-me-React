@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-image: linear-gradient(30deg, var(--bg), #4f4f4f);
+    background-image: linear-gradient(30deg, #080053, #001d7e);
     color: var(--fonte);
 }
 
@@ -58,12 +58,16 @@ body {
 }
 
 .icone-tech {
-    width: 23%;
+    width: 25%;
     border-radius: 0 !important;
 }
 
 
 /* |=============| Footer |============| */
+
+.rodape {
+    border: 1px solid var(--fonte);
+}
 
 .copyright {
     color: var(--copyright);
