@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-dark p-5 m-3 border rounded-5" data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg p-5 m-3 rounded-5 text-white" data-bs-theme="dark">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">Daniel Henrique</Link>
                 <button

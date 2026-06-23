@@ -4,9 +4,7 @@ import './assets/css/index.css';
 
 import { useState } from 'react'
 import { Rotas } from './rotas/Rotas'
-import { Footer } from './components/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Navbar } from './components/Navbar';
 
 
 function App() {
