@@ -1,7 +1,13 @@
-export function Projetos(){
-    return(
+import { Navbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
+import { ContentProjetos } from "../components/ContentProjetos";
+
+export function Projetos() {
+    return (
         <>
-            <h1>Formulário - Entrar</h1>
+            <Navbar />
+            <ContentProjetos />
+            <Footer />
         </>
     )
 }

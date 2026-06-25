@@ -1,7 +1,14 @@
-import { Section } from "../components/Section";
+import { Navbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
+import { ContentSobre } from "../components/ContentSobre";
 
-export function Sobre(){
+export function Sobre() {
     return (
-        <Section />
+        <>
+            <Navbar />
+            <ContentSobre />
+            <Footer />
+        </>
+
     )
 }

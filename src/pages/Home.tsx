@@ -1,12 +1,12 @@
 import { Navbar } from '../components/Navbar'
 import { Footer } from '../components/Footer'
-import { Content } from '../components/Content'
+import { ContentHome } from '../components/ContentHome.js'
 
 export function Home() {
     return (
         <>
             <Navbar />
-            <Content />
+            <ContentHome />
             <Footer />
         </>
     )
