@@ -45,6 +45,15 @@ body {
     color: var(--bg);
 }
 
+.nav-link {
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+    color: var(--fonte)
+}
+
 
 /* |=============| Conteúdo principal - landing (Home) |============| */
 

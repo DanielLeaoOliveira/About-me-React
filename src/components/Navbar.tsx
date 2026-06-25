@@ -17,9 +17,9 @@ export function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item ">
-                            <Link className="nav-link  active" aria-current="page" to="/">Home</Link>
+                            <Link className="nav-link" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/Sobre">Sobre</Link>
@@ -37,10 +37,10 @@ export function Navbar() {
                             >
                                 Minha Galeria 
                             </a>
-                            <ul className="dropdown-menu rounded-4">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                            <ul className="dropdown-menu rounded-3 text-center">
+                                <li><a className="dropdown-item" href="#">Websites</a></li>
+                                <li><a className="dropdown-item" href="#">Edições</a></li>
+                                <li><a className="dropdown-item" href="#">Currículo</a></li>
                             </ul>
                         </li>
                     </ul>
