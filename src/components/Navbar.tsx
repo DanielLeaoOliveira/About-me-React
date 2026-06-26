@@ -18,13 +18,13 @@ export function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item ">
-                            <Link className="nav-link" aria-current="page" to="/">Home</Link>
+                            <Link className="nav-link" aria-current="page" to="/">HOME</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/Sobre">Sobre</Link>
+                            <Link className="nav-link" to="/Sobre">SOBRE</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/Projetos">Projetos</Link>
+                            <Link className="nav-link" to="/Projetos">PROJETOS</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <a
@@ -34,7 +34,7 @@ export function Navbar() {
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
-                                Minha Galeria
+                                MINHA GALERIA
                             </a>
                             <ul className="dropdown-menu rounded-3 text-center">
                                 <li><a className="dropdown-item" href="#">Websites</a></li>
