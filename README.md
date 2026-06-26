@@ -1,16 +1,139 @@
-# React + Vite
+# 💼 Portfólio Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido para apresentar minhas habilidades, tecnologias e projetos como Desenvolvedor Full Stack com foco em Front-End.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📖 Sobre o Projeto
 
-## React Compiler
+Este portfólio foi criado utilizando React e Bootstrap com o objetivo de centralizar informações profissionais, experiências e projetos em uma interface moderna e responsiva.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O projeto foi desenvolvido para praticar:
 
-## Expanding the ESLint configuration
+- Componentização com React
+- Navegação SPA com React Router
+- Organização de código em componentes reutilizáveis
+- Responsividade com Bootstrap
+- Estruturação de projetos Front-End
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tecnologias Utilizadas
+
+<div align="center">
+
+<img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+<img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+<img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+<img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
+<img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+<img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+
+</div>
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+src/
+│
+├── assets/
+│   ├── css/
+│   └── img/
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── Footer.tsx
+│   ├── ContentHome.tsx
+│   ├── ContentSobre.tsx
+│   └── ContentProjetos.tsx
+│
+├── pages/
+│   ├── Home.tsx
+│   ├── Sobre.tsx
+│   └── Projetos.tsx
+│
+├── rotas/
+│   └── Rotas.tsx
+│
+├── App.tsx
+└── main.tsx
+```
+
+---
+
+## ✨ Funcionalidades
+
+- Navegação entre páginas sem recarregamento
+- Página inicial com apresentação profissional
+- Exibição das tecnologias utilizadas
+- Layout responsivo
+- Estrutura preparada para novos projetos
+
+---
+
+## ⚙️ Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/seuusuario/seurepositorio.git
+```
+
+Entre na pasta:
+
+```bash
+cd seurepositorio
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Demonstração
+
+### Página Inicial
+
+<img src="./screenshots/home.png">
+
+### Página de Projetos
+
+<img src="./screenshots/projetos.png">
+
+### Página Sobre
+
+<img src="./screenshots/sobre.png">
+
+---
+
+## 🔮 Melhorias Futuras
+
+- [ ] Implementar tema Dark/Light
+- [ ] Adicionar animações com Framer Motion
+- [ ] Integração com GitHub API
+- [ ] Formulário de contato funcional
+- [ ] Deploy em Vercel
+- [ ] Migração completa para TypeScript
+
+---
+
+## 👨‍💻 Autor
+
+**Daniel Henrique Leão de Oliveira**
+
+- GitHub: https://github.com/DanielLeaoOliveira
+- LinkedIn: adicionar link
+- Email: contato profissional
+
+---
