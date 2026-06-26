@@ -8,11 +8,7 @@ export function Rotas() {
         <>
             <Routes>
                 <Route path='/' element={<Home />} />
-            </Routes>
-            <Routes>
                 <Route path='/Sobre' element={<Sobre />} />
-            </Routes>
-            <Routes>
                 <Route path='/Projetos' element={<Projetos />} />
             </Routes>
         </>
