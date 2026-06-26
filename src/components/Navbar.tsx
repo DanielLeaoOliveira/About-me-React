@@ -4,7 +4,6 @@ export function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg p-5 m-3 rounded-5 text-white" data-bs-theme="dark">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">Daniel Henrique</Link>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -35,7 +34,7 @@ export function Navbar() {
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
-                                Minha Galeria 
+                                Minha Galeria
                             </a>
                             <ul className="dropdown-menu rounded-3 text-center">
                                 <li><a className="dropdown-item" href="#">Websites</a></li>
@@ -43,9 +42,12 @@ export function Navbar() {
                                 <li><a className="dropdown-item" href="#">Currículo</a></li>
                             </ul>
                         </li>
+
                     </ul>
                 </div>
+                <Link className="navbar-brand ms-auto" to="/"><h1>DH</h1></Link>
             </div>
+            
         </nav>
     )
 }
