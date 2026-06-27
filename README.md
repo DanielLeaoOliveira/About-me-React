@@ -33,7 +33,7 @@ O projeto foi desenvolvido para praticar:
 
 ---
 
-## 📂 Estrutura do Projeto
+<!-- ## 📂 Estrutura do Projeto
 
 ```text
 src/
@@ -62,7 +62,7 @@ src/
 ```
 
 ---
-
+-->
 ## ✨ Funcionalidades
 
 - Navegação entre páginas sem recarregamento
