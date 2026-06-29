@@ -83,6 +83,10 @@ body {
     width: 30px;
 }
 
+.icone-btn.lnkdn {
+    width: 25px;
+}
+
 .btn {
     border: 1px solid #f4f4f4;
     border-radius: 15px;
@@ -95,7 +99,17 @@ body {
 
 .btn.github:hover {
     background-color: #F34F29;
-    border: 0;
+    border: 1px solid #F34F29;
+}
+
+.btn.linkedin:hover {
+    background-color: #0076B2;
+    border: 1px solid #0076B2;
+}
+
+.btn.curriculo:hover {
+    background-color: #2a00e4;
+    border: 1px solid #2a00e4;
 }
 
 
