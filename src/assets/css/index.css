@@ -91,6 +91,9 @@ body {
     border: 1px solid #f4f4f4;
     border-radius: 15px;
     color: var(--fonte);
+    height: 50px;
+    width: 170px;
+    transition: all .3s ease;
 }
 
 .btn:hover {
@@ -100,16 +103,23 @@ body {
 .btn.github:hover {
     background-color: #F34F29;
     border: 1px solid #F34F29;
+    border-radius: 0;
 }
 
 .btn.linkedin:hover {
     background-color: #0076B2;
     border: 1px solid #0076B2;
+    border-radius: 0;
 }
 
 .btn.curriculo:hover {
     background-color: #2a00e4;
     border: 1px solid #2a00e4;
+    border-radius: 0;
+}
+
+.btn.curriculo {
+    height: 65px;
 }
 
 
