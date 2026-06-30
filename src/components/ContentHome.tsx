@@ -24,14 +24,14 @@ export function ContentHome() {
                             <hr />
                             
                             <i><h5>Principais Tecnologias:</h5></i>
-                            <img src={bs} className="img-fluid rounded-5 icone-tech p-1" alt="Imagem de exemplo" />
-                            <img src={css3} className="img-fluid rounded-5 icone-tech p-1" alt="Imagem de exemplo" />
-                            <img src={html5} className="img-fluid rounded-5 icone-tech p-1" alt="Imagem de exemplo" />
-                            <img src={js} className="img-fluid rounded-5 icone-tech p-1" alt="Imagem de exemplo" />
-                            <img src={react} className="img-fluid rounded-5 icone-tech p-1" alt="Imagem de exemplo" />
-                            <img src={reactbootstrap} className="img-fluid rounded-5 icone-tech p-1" alt="Imagem de exemplo" />
-                            <img src={github} className="img-fluid rounded-5 icone-tech p-1" alt="Imagem de exemplo" />
-                            <img src={git} className="img-fluid rounded-5 icone-tech p-1" alt="Imagem de exemplo" />
+                            <img src={bs} className="img-fluid icone-tech p-1" alt="Imagem de exemplo" />
+                            <img src={css3} className="img-fluid icone-tech p-1" alt="Imagem de exemplo" />
+                            <img src={html5} className="img-fluid icone-tech p-1" alt="Imagem de exemplo" />
+                            <img src={js} className="img-fluid icone-tech p-1" alt="Imagem de exemplo" />
+                            <img src={react} className="img-fluid icone-tech p-1" alt="Imagem de exemplo" />
+                            <img src={reactbootstrap} className="img-fluid icone-tech p-1" alt="Imagem de exemplo" />
+                            <img src={github} className="img-fluid icone-tech p-1" alt="Imagem de exemplo" />
+                            <img src={git} className="img-fluid icone-tech p-1" alt="Imagem de exemplo" />
                         </div>
                         <div className="col">
                             <img src={close} className="img-fluid rounded-5 perfil mt-4" alt="Imagem de exemplo" />

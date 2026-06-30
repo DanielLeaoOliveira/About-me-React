@@ -72,8 +72,8 @@ body {
 }
 
 .icone-tech {
-    width: 25%;
-    border-radius: 0 !important;
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -81,6 +81,7 @@ body {
 
 .icone-btn {
     width: 30px;
+    height: 30px;
 }
 
 .icone-btn.lnkdn {
@@ -120,6 +121,56 @@ body {
 
 .btn.curriculo {
     height: 65px;
+}
+
+.btn-pesquisa {
+    width: 140px;
+    background: none;
+}
+
+.btn-pesquisa:hover {
+    border-radius: 0;
+    border-color: #2a00e4;
+    background-color: #2a00e4;
+    box-shadow: 0px 0px 14px rgb(0, 0, 0, 0.);
+}
+
+.btn.proj-github {
+    background-color: #F34F29;
+    width: 100%;
+}
+
+.btn.proj-github:hover {
+    background-color: #ca3b1a;
+    border-color: #ca3b1a;
+    color: var(--fonte);
+    border-radius: 0;
+}
+
+
+/* |=============| Forms |============| */
+
+.form-control {
+    background: none;
+    color: var(--fonte);
+}
+
+.form-control::placeholder {
+    color: var(--fonte);
+}
+
+.form-control:enabled {
+    background: none;
+    color: var(--fonte);
+}
+
+
+/* |=============| Cards de projetos |============| */
+
+.card-projetos {
+    background: none;
+    color: var(--fonte);
+    border: 1px solid #ffffff;
 }
 
 
