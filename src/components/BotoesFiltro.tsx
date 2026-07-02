@@ -9,7 +9,8 @@ const tecnologias = [
     "TypeScript",
     "Node",
     "Bootstrap",
-    "EJS"
+    "EJS",
+    "Python"
 ]
 
 export function BotoesFiltro({
