@@ -1,13 +1,16 @@
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import { useState } from "react"
-import { projetos } from "../data/projetos"
+import { Projeto } from "../types/Projeto"
+import projetosData from "../data/projetos.json"
 import { BarraPesquisa } from "../components/BarraPesquisa"
 import { BotoesFiltro } from "../components/BotoesFiltro"
 import { ProjetoCard } from "../components/ProjetoCard"
 
 
 export function Projetos() {
+
+    const projetos: Projeto[] = projetosData
 
     const [search, setSearch] = useState("")
     const [filter, setFilter] = useState("Todos")

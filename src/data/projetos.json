@@ -1,0 +1,25 @@
+[{
+        "id": 1,
+        "titulo": "Portfolio",
+        "descricao": "Meu portfólio em React, com aplicações de Props, Hooks, funções assíncronas e mecanismos de busca.",
+        "tecnologias": ["React", "TypeScript"],
+        "github": "https://github.com/DanielLeaoOliveira/About-me-React.git",
+        "featured": false
+    },
+    {
+        "id": 2,
+        "titulo": "Studio Patty Leao",
+        "descricao": "ERP para salão de beleza feminino, em padrão de arquitetura MVC com banco de dados não relacional.",
+        "tecnologias": ["EJS", "Node"],
+        "github": "https://github.com/DanielLeaoOliveira/studio-patty-leao-platform.git",
+        "featured": true
+    },
+    {
+        "id": 3,
+        "titulo": "Perfil em NodeJS",
+        "descricao": "Software simples feito em Node com Bootstrap contendo um breve perfil estilizado a fim de estudos Front-End.",
+        "tecnologias": ["Bootstrap", "Node"],
+        "github": "https://github.com/DanielLeaoOliveira/Perfil-NodeJS.git",
+        "featured": false
+    }
+]
